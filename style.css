@@ -1,0 +1,82 @@
+/* this is the start of styling the about me page */
+
+body {
+  padding-top: 3.5rem;
+}
+.jumbotron {
+  background-color: white;
+}
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+  letter-spacing: 3px;
+  color: rgb(65, 62, 62);
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 7px;
+  color: lightgray;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+#portfolio-img {
+  display: block;
+  margin: 20px auto;
+}
+
+.fa {
+  color: black;
+  text-decoration: none;
+}
+
+.fa:hover {
+  color: lightgray;
+}
+
+.small-text {
+  color: pink;
+}
+
+/* this is the start of styling the resume page */
+
+#resume {
+  display: block;
+  /* margin: 20px auto; */
+  color: pink;
+}
+
+/* this is the start of styling the recent work/projects page */
+
+.card-text {
+  overflow-wrap: break-word;
+}
+.stretched-link {
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+}
+.stretched-link:hover {
+  color: lightgray;
+}
+
+.portfolio-img {
+  display: block;
+  margin: 20px auto;
+}

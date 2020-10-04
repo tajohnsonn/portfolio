@@ -80,3 +80,9 @@ h2 {
   display: block;
   margin: 20px auto;
 }
+
+/* this is the start of styling the skills page */
+
+#skill-icons {
+  margin-bottom: 50px;
+}

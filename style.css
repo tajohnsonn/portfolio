@@ -31,6 +31,7 @@ h3 {
 p {
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  line-height: 30px;
 }
 
 h2 {
@@ -56,10 +57,13 @@ h2 {
 
 /* this is the start of styling the resume page */
 
-#resume {
-  display: block;
-  /* margin: 20px auto; */
+#resume-text {
   color: pink;
+  text-align: center;
+}
+
+.resume-img {
+  width: 100%;
 }
 
 /* this is the start of styling the recent work/projects page */
@@ -78,13 +82,28 @@ h2 {
 
 .portfolio-img {
   display: block;
-  margin: 20px auto;
+  margin: 20 20 20 20;
 }
 
+.col-md-6 {
+  display: block;
+  margin: 20px auto;
+}
 /* this is the start of styling the skills page */
 
 #skill-icons {
   margin-bottom: 50px;
   letter-spacing: 2px;
   font-size: 2rem;
+}
+
+/* CONTACT PAGE STYLING */
+
+.mb-4 {
+  width: 80%;
+  text-align: center;
+}
+
+#contact-text {
+  text-align: center;
 }

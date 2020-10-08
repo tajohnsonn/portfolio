@@ -89,6 +89,16 @@ h2 {
   display: block;
   margin: 20px auto;
 }
+
+.portfolio-item {
+  min-height: 482px;
+}
+
+#project-link {
+  text-align: center;
+  text-decoration: none;
+  color: pink;
+}
 /* this is the start of styling the skills page */
 
 #skill-icons {
@@ -105,5 +115,14 @@ h2 {
 }
 
 #contact-text {
+  color: pink;
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+.btn {
+  background-color: pink;
 }

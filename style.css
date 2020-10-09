@@ -123,6 +123,14 @@ h2 {
   letter-spacing: 7px;
 }
 
+.contact-text:hover {
+  color: grey;
+}
+
 .btn {
   background-color: pink;
+}
+
+.a:hover {
+  color: grey;
 }
